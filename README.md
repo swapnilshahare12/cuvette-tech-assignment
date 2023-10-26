@@ -1,8 +1,5 @@
-# React + Vite
+# Cuvette-tech Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is assignment for cuvette-tech.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![screencapture-swapni-shahare-assignment-netlify-app-2023-10-26-19_47_46](https://github.com/swapnilshahare12/cuvette-tech-assignment/assets/117369320/dd7f2f4f-83c2-4900-b673-42db2ce010cc)
