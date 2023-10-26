@@ -1,0 +1,67 @@
+.skill-right-container {
+  width: 28.5%;
+  display: flex;
+  /* flex: 1; */
+  flex-direction: column;
+  padding: 27px 0;
+  gap: 32px;
+  padding-right: 40px;
+}
+
+.syllabus-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 53px;
+  justify-content: space-between;
+  /* align-items: center; */
+  border: 1px solid #ebf0f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.syllabus-container-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e272e;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.progress {
+  width: 60%;
+  height: 10px;
+  /* background-color: rgba(67, 138, 246, 0.1); */
+  border-radius: 10px;
+}
+
+.progress-bar {
+  /* width: 80%; */
+  height: 10px;
+  /* background-color: #438af6; */
+  border-radius: 10px;
+  transition: all ease-in-out 1.2s;
+}
+
+.syllabus-progress-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.syllabus-progress-container h5 {
+  transition: all ease-in-out 1.2s;
+}
+
+.syllabus-items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.syllabus-item p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #566474;
+  margin-bottom: 10px;
+  text-align: left;
+}

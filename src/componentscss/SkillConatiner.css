@@ -1,0 +1,5 @@
+.skill-container{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30px;
+}

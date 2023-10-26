@@ -1,0 +1,156 @@
+.confirm {
+  width: 800px;
+  height: 460px;
+  background: #fff;
+  transition: all ease-in-out 0.5s;
+  z-index: 100;
+  position: absolute;
+  border-radius: 10px;
+  top: -500px;
+  left: calc(50% - 400px);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.confirm.show {
+  top: calc(50% - 240px);
+  transition: all ease-in-out 0.5s;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+}
+
+.modal-footer button:last-child {
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-header h3 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #222f3e;
+}
+.modal-header img {
+  height: 47.45px;
+  width: 35.56px;
+}
+
+.save-btn {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  background-color: #142683;
+  color: white;
+  font-weight: bold;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  height: 44px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.cancel-btn {
+  background-color: transparent;
+  font-weight: bold;
+  padding: 8px 10px 8px 10px;
+  border: 1px solid #142683;
+  color: #142683;
+  height: 44px;
+  width: 90px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.cancel-btn:hover {
+  background-color: #f6f8ff;
+  color: #142683;
+}
+
+.save-btn:hover {
+  background-color: #1e38c1;
+}
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.confirm.show + .overlay {
+  display: block;
+}
+
+@media screen and (max-width: 450px) {
+  .confirm {
+    width: 300px;
+    left: calc(50% - 150px);
+  }
+}
+
+.input-container {
+  border-top: 1px solid #ebf0f5;
+  border-bottom: 1px solid #ebf0f5;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 25px 0;
+}
+
+.input-items,
+.input-item-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.count-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 24.11px;
+  background-color: #142683;
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+  margin-right: 25px;
+}
+
+.input-item-left p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #566474;
+}
+
+.input-item-left span {
+  font-weight: 700;
+}
+
+.input-item-right input {
+  width: 157px;
+  height: 44px;
+  border: 1px solid #142683;
+  color: #142683;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 25px;
+}
